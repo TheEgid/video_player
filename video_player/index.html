@@ -1,48 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Пример подключения плеера</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <style type="text/css">
-        button {
-            border-style: none; color: white; background-color: transparent;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
+<div id="player">
 
+    <div class="js-video-container"></div>
 
-<div id="player" style="width: 800px; height: 600px;">
-
-    <div style="width: 100%; height: 100%; box-shadow: 0 0 10px rgba(0,0,0,9);" class="js-video-container"></div>
-
-    <div style="background-color: black;">
+    <div id="controls">
         <button class="js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
         <button class="js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
         <button class="js-volume-button">Volume</button>
         <button class="js-mute-button" hidden>Mute</button>
         <button class="js-fullscreen-button">Fullscreen</button>
     </div>
-    <div style="color: white;">
-        <span class="js-current-time"></span>
-        —
-        <span class="js-duration"></span>
-    </div>
 
-    <div class="js-progress" style="background-color: grey;">
-        <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
-    </div>
+    <!-- <div style="color: white;"> -->
+    <!-- <span class="js-current-time"></span> -->
+    <!-- — -->
+    <!-- <span class="js-duration"></span> -->
+    <!-- </div> -->
+
+    <!-- <div class="js-progress" style="background-color: grey;"> -->
+    <!-- <div class="js-progress-slider" style="background-color: red;">Прогресс</div> -->
+    <!-- </div> -->
+
 </div>
 
 
 <script src="js/jquery-3.js"></script>
 <script src="js/playable.js"></script>
 <script src="js/player.js"></script>
-
 
 <script type="text/javascript">
     createPlayer({

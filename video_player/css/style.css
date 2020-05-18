@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+}
+
+button {
+    border-style: none; color: white; background-color: transparent;
+
+}
+
+#player {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 800px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,5);
+}
+
+
+.js-video-container {
+    display: flex;
+    flex: 1;
+}
+
+
+#controls {
+    display: flex;
+    flex: 0;
+    background-color: black;
+}
+
+
