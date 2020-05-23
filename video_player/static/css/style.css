@@ -2,10 +2,6 @@ body {
   height: 100%;
 }
 
-button {
-    border-style: none; color: white; background-color: transparent;
-
-}
 
 #player {
     display: flex;
@@ -34,14 +30,18 @@ button {
     font-size: 250%;
 }
 
+
 #controls > button {
+    border-style: none;
+    color: white;
+    background-color: transparent;
     line-height: 1.5;
     font-size: 40%;
     margin: 0.8em;
 }
 
-#interval {
+
+#buttons_interval {
     display: flex;
     flex: 1;
 }
-
