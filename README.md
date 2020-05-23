@@ -2,7 +2,7 @@
 
 Пример верстки онлайн-видеоплеера.
 
-Увидеть в действии - [Прекрасный видеоплеер](https://theegid.github.io/video_player/)
+Увидеть в действии - [Прекрасный видеоплеер](https://theegid.github.io/video_player/video_player/index.html)
 
 ### Цель проекта
 
