@@ -5,7 +5,7 @@
 
 Увидеть в действии - 
 
-[Прекрасный видеоплеер](https://theegid.github.io/video_player/video_player/index.html){:target="_blank"}
+[Прекрасный видеоплеер](https://theegid.github.io/video_player/video_player/index.html)
 
 
 ### Цель проекта
