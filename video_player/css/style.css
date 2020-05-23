@@ -27,7 +27,21 @@ button {
 #controls {
     display: flex;
     flex: 0;
+    flex-direction: row;
+    align-content: stretch;
     background-color: black;
+    line-height: 3;
+    font-size: 250%;
 }
 
+#controls > button {
+    line-height: 1.5;
+    font-size: 40%;
+    margin: 0.8em;
+}
+
+#interval {
+    display: flex;
+    flex: 1;
+}
 
