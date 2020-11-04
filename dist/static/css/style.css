@@ -3,7 +3,7 @@ body {
 }
 
 
-#player {
+.player {
     display: flex;
     align-content: stretch;
     flex-direction: column;
@@ -11,6 +11,7 @@ body {
     max-width: 800px;
     height: 600px;
     box-shadow: 0 0 10px rgba(0,0,0,5);
+    margin:0 auto;
 }
 
 
@@ -20,7 +21,7 @@ body {
 }
 
 
-#controls {
+.controls {
     display: flex;
     flex: 0;
     flex-direction: row;
@@ -31,17 +32,19 @@ body {
 }
 
 
-#controls > button {
+.controls > button {
     border-style: none;
     color: white;
     background-color: transparent;
     line-height: 1.5;
     font-size: 40%;
     margin: 0.8em;
+    height: 1.5em;
+    width: 1.5em
 }
 
 
-#buttons_interval {
+.buttons_interval {
     display: flex;
     flex: 1;
 }
