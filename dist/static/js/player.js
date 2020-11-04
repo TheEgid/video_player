@@ -199,7 +199,7 @@ function createPlayer({
       setSliderWidth(percentage);  // Redraw before CURRENT_TIME_UPDATED event for better responsiveness
       seconds = durationSeconds * percentage / 100;
       player.seekTo(seconds);
-    };
+    }
 
     const throttledUpdateVideoProgress = throttle(updateVideoProgress, 100);
 
