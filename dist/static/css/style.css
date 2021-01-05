@@ -26,9 +26,11 @@ body {
     flex: 0;
     flex-direction: row;
     align-content: stretch;
+    align-items: center;
     background-color: black;
     line-height: 1;
     font-size: 250%;
+    padding-bottom:0.1em;
 }
 
 .player-controls > button {
@@ -68,8 +70,6 @@ body {
     font-size: 40%;
     line-height: 1;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    align-items: center;
 }
 
 
@@ -85,14 +85,12 @@ body {
 
 .player-controls > .js-progress {
     width: 15em;
-    height: 0.1em;
     background-color: black;
-    margin-top: 0.4em;
     margin-left: 0.25em;
     margin-right: 0.25em;
-    border-radius: 0.1em 0.1em 0.1em 0.1em;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-self: center;
 }
 
 
@@ -100,6 +98,19 @@ body {
     background-color: #f8104d;
     height: 0.1em;
     border-radius: 0.1em 0.1em 0.1em 0.1em;
-    display: flex;
-    align-items: center;
+    align-self: center;
+}
+
+
+.slider {
+    height: 0.2em;
+    width: 0.2em;
+    background-color: #f8104d;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.07em;
+    box-shadow: 0 0 10px white;
+    align-self: center;
+    margin-left: -0.2em;
 }
