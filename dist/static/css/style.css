@@ -31,7 +31,6 @@ body {
     font-size: 250%;
 }
 
-
 .player-controls > button {
     border-style: none;
     color: white;
@@ -42,13 +41,16 @@ body {
     width: 1.8em
 }
 
+
 .player-controls > button.js-play-button {
-    padding-right: 0.2em;
+    padding-right: 0.15em;
 }
 
+
 .player-controls > button.js-mute-button {
-    padding-left: 0.5em;
+    padding-left: 0.6em;
 }
+
 
 .player-controls > button.js-fullscreen-button {
     padding-right: 0.35em;
@@ -58,4 +60,46 @@ body {
 .player-buttons-interval {
     display: flex;
     flex: 1;
+}
+
+
+.player-controls > span {
+    color: white;
+    font-size: 40%;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+
+.player-controls > .js-current-time {
+    margin-left: 0.3em;
+}
+
+
+.player-controls > .js-duration {
+    margin-right: 0.15em;
+}
+
+
+.player-controls > .js-progress {
+    width: 15em;
+    height: 0.1em;
+    background-color: black;
+    margin-top: 0.4em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    border-radius: 0.1em 0.1em 0.1em 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+
+.player-controls >  .js-progress > .js-progress-slider {
+    background-color: #f8104d;
+    height: 0.1em;
+    border-radius: 0.1em 0.1em 0.1em 0.1em;
+    display: flex;
+    align-items: center;
 }
