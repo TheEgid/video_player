@@ -27,7 +27,7 @@ body {
     flex-direction: row;
     align-content: stretch;
     background-color: black;
-    line-height: 3;
+    line-height: 1;
     font-size: 250%;
 }
 
@@ -37,10 +37,21 @@ body {
     color: white;
     background-color: transparent;
     line-height: 1.5;
-    font-size: 40%;
-    margin: 0.8em;
-    height: 1.5em;
-    width: 1.5em
+    font-size: 50%;
+    height: 1.8em;
+    width: 1.8em
+}
+
+.player-controls > button.js-play-button {
+    padding-right: 0.2em;
+}
+
+.player-controls > button.js-mute-button {
+    padding-left: 0.5em;
+}
+
+.player-controls > button.js-fullscreen-button {
+    padding-right: 0.35em;
 }
 
 

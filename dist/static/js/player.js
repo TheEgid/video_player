@@ -1,6 +1,6 @@
 function createPlayer({
   elementId,
-  src='https://dvmn.org/media/filer_public/78/db/78db3456-3fd3-4504-9ed9-d2d1fd843c0b/highest_peak.mp4'
+  src=''
 }){
   const player = Playable.create({
     fillAllSpace: true,
