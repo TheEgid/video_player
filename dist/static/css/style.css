@@ -18,6 +18,7 @@ body {
 .video-container {
     display: flex;
     flex: 1;
+
 }
 
 
@@ -30,35 +31,39 @@ body {
     background-color: black;
     line-height: 1;
     font-size: 250%;
-    padding-bottom:0.1em;
+    padding-bottom:2px;
+    padding-left: 11px;
 }
+
 
 .player-controls > button {
     border-style: none;
     color: white;
     background-color: transparent;
-    line-height: 1.5;
-    font-size: 50%;
-    height: 1.8em;
-    width: 1.8em
+    padding: 5px;
+    margin: 0px;
+    font-size: 20px;
+    height: 42px;
+    width: 33px;
 }
 
 .player-controls > button:focus {
     outline: none;
 }
 
+
 .player-controls > button.js-play-button {
-    padding-right: 0.15em;
+/*    padding-left: 11px;*/
 }
 
 
-.player-controls > button.js-mute-button {
-    padding-left: 0.6em;
+.player-controls > button.js-pause-button{
+/*    padding-left: 11px;*//**/
 }
 
 
 .player-controls > button.js-fullscreen-button {
-    padding-right: 0.35em;
+
 }
 
 
@@ -77,21 +82,20 @@ body {
 
 
 .js-current-time {
-    margin-left: 0.3em;
-    margin-right: 0.25em;
+    margin-left: 0.5px;
 }
 
 
 .js-duration {
-    margin-right: 0.15em;
+    margin-left: 2px;
 }
 
 
 .js-progress {
-    width: 15em;
+    width: 800px;
     background-color: black;
-    margin-left: 0.25em;
-    margin-right: 0.25em;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -100,7 +104,7 @@ body {
 
 .js-progress-slider {
     background-color: #f8104d;
-    height: 0.1em;
+    height: 5px;
     border-radius: 0.1em 0.1em 0.1em 0.1em;
     align-self: center;
 }

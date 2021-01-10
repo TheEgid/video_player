@@ -17,13 +17,14 @@ pip install -r requirements.txt
 livereload dist
 ```
 
-Сайт появится по адресу  [http://127.0.0.1:35729](http://127.0.0.1:35729)
+Сайт появится по адресу 
+[http://127.0.0.1:35729](http://127.0.0.1:35729).
 
 
 ### Использование
 
-
-Увидеть в действии по адресу [Прекрасный видеоплеер](https://theegid.github.io/video_player/dist/index.html)
+Увидеть в действии по адресу 
+[https://прекрасный видеоплеер.ру](https://theegid.github.io/video_player/dist/index.html).
 
 
 ### Цель проекта
