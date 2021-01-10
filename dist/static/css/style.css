@@ -43,6 +43,9 @@ body {
     width: 1.8em
 }
 
+.player-controls > button:focus {
+    outline: none;
+}
 
 .player-controls > button.js-play-button {
     padding-right: 0.15em;
@@ -73,17 +76,18 @@ body {
 }
 
 
-.player-controls > .js-current-time {
+.js-current-time {
     margin-left: 0.3em;
+    margin-right: 0.25em;
 }
 
 
-.player-controls > .js-duration {
+.js-duration {
     margin-right: 0.15em;
 }
 
 
-.player-controls > .js-progress {
+.js-progress {
     width: 15em;
     background-color: black;
     margin-left: 0.25em;
@@ -94,7 +98,7 @@ body {
 }
 
 
-.player-controls >  .js-progress > .js-progress-slider {
+.js-progress-slider {
     background-color: #f8104d;
     height: 0.1em;
     border-radius: 0.1em 0.1em 0.1em 0.1em;
@@ -102,9 +106,10 @@ body {
 }
 
 
-.slider {
+span.slider {
     height: 0.2em;
     width: 0.2em;
+    margin-left: -0.2em;
     background-color: #f8104d;
     border-radius: 50%;
     border-style: solid;
@@ -112,5 +117,13 @@ body {
     border-width: 0.07em;
     box-shadow: 0 0 10px white;
     align-self: center;
-    margin-left: -0.2em;
+    opacity: 0;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.js-progress:hover span.slider {
+    opacity: 1;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
 }
